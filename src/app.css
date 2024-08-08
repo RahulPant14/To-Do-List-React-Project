@@ -1,0 +1,25 @@
+*,::before,::after{ margin: 0; box-sizing: border-box;}
+
+button{ cursor: pointer;}
+
+.to-do-list{text-align: center; max-width: 450px; margin: auto; background: aquamarine; margin-top: 20px; padding: 20px 0;}
+.to-do-list hr{color: #000;}
+.to-do-items{width: 450px; height: auto; margin: auto;}
+.to-do-items .input{width :438px; line-height: 30px;margin: 10px 0;background: lemonchiffon;}
+.to-do-items .button{padding: 5px; margin: 0 0 10px 6px;background: #40d340;display:block;}
+.to-do-add{width: 450px;text-align: left;}
+.to-do-add .child{display: flex; width: 438px; border:  1px solid black; color: #000;background: aliceblue;justify-content: space-between;place-items: center; padding: 10px; margin: 5px;}
+.to-do-add .button-del{display:block; padding: 5px; background: red; margin: 0 10px;}
+
+@media screen and (max-width:980px){
+    
+}
+
+@media screen and (max-width:767px){
+    
+     
+}
+
+@media screen and (max-width:460px){
+    
+}
